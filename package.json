@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce_dbms",
+  "version": "1.0.0",
+  "description": "simple basic implementation of mysql queries",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noogler-eng/E_Commerce"
+  },
+  "keywords": [],
+  "author": "sharad poddar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noogler-eng/E_Commerce/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.1"
+  }
+}
